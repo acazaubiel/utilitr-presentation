@@ -8,7 +8,6 @@ slides.html
 *.gitignore
 *.Rproj
 .Renviron
-<<<<<<< master
 *.html
 atelier_*.html
 ateliers/*.html
