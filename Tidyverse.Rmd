@@ -30,14 +30,14 @@ output:
 Quelques obligations légales :
 
 * cette présentation est enregistrée (souriez) pour pouvoir être rediffusée ;
-* vous avez des droits (RGPD) : [lien à copier dans le tchat](https://www.utilitr.org/conferences/decouverte-utilitr/) ;
-*
+* vous avez des droits (RGPD) : [lien à copier dans le tchat](https://www.utilitr.org/conferences/decouverte-utilitr/).
 ]
 
 .sauterligne2[
 Quelques petites questions sur vous : 
 * quel est votre niveau estimé en `R` : 1 (débutant) à 3 (fort) ?
 * qui a déjà utilisé le SSP Cloud ?
+]
 
 Vous avez la possibilité de lancer des codes `R` facilement en cliquant ici : 
 <a href="https://datalab.sspcloud.fr/launcher/inseefrlab-helm-charts-datascience/rstudio?onyxia.friendlyName=%C2%ABrstudio-utilitr%C2%BB&init.personnalInit=%C2%ABhttps%3A%2F%2Fraw.githubusercontent.com%2FInseeFrLab%2FutilitR%2Fmaster%2Fresources%2Finit_9juin.sh%C2%BB&r.version=%C2%ABinseefrlab%2Futilitr%3A0.7.0%C2%BB" target=_blank rel=noopener><img src="https://img.shields.io/badge/SSPcloud-Tester%20via%20SSP--cloud-informational?logo=R" alt=SSPcloud></a>
@@ -471,15 +471,16 @@ ma_base_longe <-ma_base_wide %>%
                names_to="EQUIPEMENT",
                values_to="NB_EQUIPEMENT")
 ```
-
 ---
+# Limites et perspectives du tidyverse
 
-background-image: url('resources/logo-utilitr.png')
-background-size: 7cm
-background-position: 8.5cm 3cm
+Le tidyverse présente de nombreux avantages mais aussi deux limites principales :
 
-# Merci !
+1. Il n'est pas très efficace (d'autres manières de faire sont plus puissantes et économes en ressources) => éviter de manipuler des fichiers > 1Go
+2. Il est très facile de faire 90% des opérations... et assez difficile de faire les 10% restants !!
 
+Mais c'est un élément central de l'éco-système de `R` : je vous invite donc à lire les fiches [Manipuler les données avec {data.table}](https://www.book.utilitr.org/datatable.html) et [Faire des graphiques avec {ggplot2}](https://www.book.utilitr.org/ggplot2.html)
+ 
 
 ---
 
